@@ -20,6 +20,15 @@
                 "allowString": false,
                 "allowNumber": false
             }
+        ],
+        "array-element-newline": [
+            "error",
+            {
+                "ArrayExpression": "consistent",
+                "ArrayPattern": {
+                    "minItems": 1
+                }
+            }
         ]
     },
     "ignorePatterns": [
