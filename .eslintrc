@@ -20,7 +20,19 @@
                 "allowString": false,
                 "allowNumber": false
             }
-        ]
+        ],
+        "array-element-newline": [
+            "error",
+            {
+                "ArrayExpression": "consistent",
+                "ArrayPattern": {
+                    "minItems": 1
+                }
+            }
+        ],        
+            "allow": [
+                "functions"
+            ]
     },
     "ignorePatterns": [
         "src/**/*.test.ts",
