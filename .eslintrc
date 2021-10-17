@@ -29,7 +29,10 @@
                     "minItems": 1
                 }
             }
-        ]
+        ],        
+            "allow": [
+                "functions"
+            ]
     },
     "ignorePatterns": [
         "src/**/*.test.ts",
